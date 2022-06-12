@@ -1,7 +1,7 @@
 body {}
 
 header {
-    background-color: antiquewhite;
+    background-color:#ffffff;
     height: 100px;
 }
 
@@ -30,7 +30,34 @@ header {
     padding-right: 12rem;
 }
 
-.search {
+.wrapper {
     padding-top: 1.5rem;
     text-align: center
+    
+}
+.heading{
+    text-decoration: none;
+}
+.home-nav{
+    text-decoration: none;
+    
+}
+.signup-nav{
+    text-decoration: none;
+}
+.sigin-nav{
+    text-decoration: none;
+}
+.account-nav{
+    text-decoration: none;
+}
+.basket-nav{
+    text-decoration: none;
+}
+.search{
+    border-radius: 29px;
+    height: 58px;
+    width: 411px;
+    text-align: center; /*i dont know how to increase the font size of the placeholder*/
+    
 }
