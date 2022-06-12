@@ -66,3 +66,20 @@ header {
     text-align: center;
     /*i dont know how to increase the font size of the placeholder*/
 }
+
+.body-one {
+    background-color: bisque;
+}
+
+.body-two {
+    background-color: indianred;
+}
+
+footer {
+    background-color: mediumpurple;
+}
+
+.form-one {
+    background-color: black;
+    text-align: left;
+}
