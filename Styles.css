@@ -1,4 +1,36 @@
-.nav{
+body {}
+
+header {
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    padding-top: 0.4rem;
+}
+
+.heading {
+    color: #c18634;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.nav {
     float: right;
-    display: inline-block;
+}
+
+.nav ul {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding-right: 12rem;
+}
+
+.search {
+    padding-top: 1.5rem;
+    text-align: center
 }
