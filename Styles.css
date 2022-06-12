@@ -11,8 +11,8 @@ header {
 }
 
 .heading {
-    color: #c18634;
-    font-size: 1.5rem;
+    color: #F2B880;
+    font-size: 50;
     font-weight: bold;
     padding-left: 5px;
     padding-top: 15px;
@@ -33,6 +33,7 @@ header {
 .wrapper {
     padding-top: 1.5rem;
     text-align: center
+    
 }
 
 .heading {
@@ -41,22 +42,27 @@ header {
 
 .home-nav {
     text-decoration: none;
+    font-size: 25;
 }
 
 .signup-nav {
     text-decoration: none;
+    font-size: 25;
 }
 
 .sigin-nav {
     text-decoration: none;
+    font-size: 25;
 }
 
 .account-nav {
     text-decoration: none;
+    font-size: 25;
 }
 
 .basket-nav {
     text-decoration: none;
+    font-size: 25;
 }
 
 .search {
@@ -64,17 +70,35 @@ header {
     height: 20px;
     width: 180px;
     text-align: center;
+    
     /*i dont know how to increase the font size of the placeholder*/
 }
 
 .body-one {
     background-color: bisque;
+    width: 1920px;
+    height: 398px;
 }
 
 .body-two {
-    background-color: indianred;
+    background-color: #C98686;
 }
 
 footer {
-    background-color: mediumpurple;
+    background-color: #966B9D;
+}
+.cat{
+    float: left;
+    border-radius: 48px;
+    
+}
+.fish{
+    float: right;
+    border-radius: 48px;
+    
+}
+.dog{
+    border-radius: 48px;
+    
+
 }
