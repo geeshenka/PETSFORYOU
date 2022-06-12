@@ -1,7 +1,7 @@
 body {}
 
 header {
-    background-color:#ffffff;
+    background-color: #ffffff;
     height: 100px;
 }
 
@@ -27,37 +27,42 @@ header {
     display: flex;
     justify-content: space-evenly;
     width: 90%;
-    padding-right: 12rem;
+    padding-right: 15rem;
 }
 
 .wrapper {
     padding-top: 1.5rem;
     text-align: center
-    
 }
-.heading{
+
+.heading {
     text-decoration: none;
 }
-.home-nav{
-    text-decoration: none;
-    
-}
-.signup-nav{
+
+.home-nav {
     text-decoration: none;
 }
-.sigin-nav{
+
+.signup-nav {
     text-decoration: none;
 }
-.account-nav{
+
+.sigin-nav {
     text-decoration: none;
 }
-.basket-nav{
+
+.account-nav {
     text-decoration: none;
 }
-.search{
+
+.basket-nav {
+    text-decoration: none;
+}
+
+.search {
     border-radius: 29px;
-    height: 58px;
-    width: 411px;
-    text-align: center; /*i dont know how to increase the font size of the placeholder*/
-    
+    height: 20px;
+    width: 180px;
+    text-align: center;
+    /*i dont know how to increase the font size of the placeholder*/
 }
