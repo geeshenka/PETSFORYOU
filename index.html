@@ -1,77 +1,111 @@
 <!DOCTYPE html>
 <html>
+   <head>
+       <title>Pets for You</title>
+       <link rel="stylesheet" href="Styles.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.min.js">
+   </head>
+   <body>
+       <div class="container">
+           <header>
+               <a href="index.html" class="heading">PETS FOR YOU</a>
+           <div class="nav">
+               <ul>
+                   <li><a href="home.html" class="home-nav">Home</a></li>
+                   <li><a href="Signup.html " class="signup-nav">Sign up</a></li>
+                   <li><a href="Signin.html " class="sigin-nav">Sign in</a></li>
+                   <li><a href="Account.html " class="account-nav">Account</a></li>
+                   <li><a href="Basket.html " class="basket-nav">Basket</a></li>
+               </ul>
+           </div>
+           <div class="wrapper">
+               <input type="text" placeholder="Search for a pet!" class="search">
+           </div>
+           </header>
+           <div class="categories">
+               <h2 class="second">Categories</h2>
+                   <div class="images">
+                       <div class="column">
+                           <img src="cat.jpg" alt="Image of a cat" style="width:258px" class="cat">
+                       </div>
+                       <div class="column">
+                           <img src="dog.jpg" alt="Image of a dog" style="width:258px"  class="dog">
+                       </div>
+                       <div class="column">
+                           <img src="fish.jpg" alt="Image of a fish" style="width:258px"  class="fish">
+                       </div>
+                       
+                   <button class="more">More</button>
+                      
+                   </div>
+           </div>
+           <div class="main">
+               <h2 class="third">Pet Care</h2>
+                   <p class="writeup">Many peope keep animals as pet for company. Pets are fun to spend <br>
+                        time with but taking care of them is also hard work. Pets need care and <br>
+                         attention to keep them healthy, happy and safe. They need healthy <br> 
+                         food, clean water and a comfortable place to sleep. Most pets require <br> 
+                         regular exercise to stay fit. It is important to find out all about an <br>
+                          animal before deciding whether it will fit well with you or ... <br><button type="button" class="read">Read more</button></p>
+                          
+                   <div class="hold">
+                   <img src="care.jpg" alt="Woman holding a dog" width="90%" height="90%">
+                   
+                   </div>
+           </div>
+           <div class="footer">
+               <div class="clm">
+                   <div class="row">
+                       <div class="footer-col">
+                           <h4>Contact us</h4>
+                           <h4>Send us a message</h4>
+                       
+                           <form>
+                               <label for="name">Full name:<br> </label>
+                                 <input type="text" name="Name" placeholder="Full name">
+                                 <br>
+                           </form>
+                           <form>
+                               <label for="Email">Email:<br></label>
+                                 <input type="text" name="Email" placeholder="Email">
+                                   <br>
+                           </form>
+                           <form>
+                               <label for="Your Message">Your Message:<br></label>
+                                 <textarea name="Your Message" placeholder="Your message"></textarea>
+                           </form>
+                           <button class="submit">Submit</button>
+                       </div>
+                       <div class="footer-col">
+                           <h4>Site Map</h4>
+                               <ul>
+                                   <li><a href="About.html">About</a></li>
+                                   <li><a href="Account.html">Account</a></li>
+                                   <li><a href="Basket.html">Basket</a></li>
+                                   <li><a href="index.html">Home</a></li>
+                                   <li><a href="signin.html">Sign in</a></li>
+                                   <li><a href="Signup.html">Sign up</a></li>
+                               </ul>
+                   
+                           
+                       </div>
+                       <div class="footer-col">
+                           <div class="social-links">
+                               <h4>Social Media</h4>
+                                   <li><a href="twitter.com" class="twi">Twitter</i/a></li>
+                                   <li><a href="instagram.com" class="ig">Instagram</i/a></li>
+                                   <li><a href="facebook.com" class="fb">Facebook</i/a></li>
 
-<head>
-    <title>Pets for You</title>
-    <link rel="stylesheet" href="Styles.css">
-</head>
+                           </div>
+                           
+                           
+                       </div>
+                   </div>
+               </div>
+           </div>
+                 
+       </div>
 
-<body>
-    <header>
-
-        <img src="PETS.jpeg" class="logo" height="25" width="35">
-        <a href="index.html" class="heading">PETS FOR YOU</a>
-        <div class=" nav ">
-            <ul>
-                <li><a href="home.html" class="home-nav">Home</a></li>
-                <li><a href="Signup.html " class="signup-nav">Sign up</a></li>
-                <li><a href="Signin.html " class="sigin-nav">Sign in</a></li>
-                <li><a href="Account.html " class="account-nav">Account</a></li>
-                <li><a href="Basket.html " class="basket-nav">Basket</a></li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <input type="text" placeholder="Search for a pet " class="search">
-        </div>
-    </header>
-    <main>
-
-        <div class="body-one">
-            <h2>Categories</h2>
-            <img src="cat.jpg " alt="Image of a cat " width="258.97 " height="280 " class="cat">
-            <img src="dog.jpg " alt="Image of a dog " width="258.97 " height="280 " class="dog">
-            <img src="fish.jpg " alt="Image of a fish " width="258.97 " height="280 " class="fish">
-            <button class="more">More</button>
-        </div>
-
-        <div class="body-two">
-            <h2>Pet Care</h2>
-            <p>Many peope keep animals as pet for company. Pets are fun to spend time with but taking care of them is also hard work. Pets need care and attention to keep them healthy, happy and safe. They need healthy food, clean water and a comfortable
-                place to sleep. Most pets require regular exercise to stay fit. It is important to find out all about an animal before deciding whether it will fit well with you or ...</p>
-            <button type="button ">Read more</button>
-            <img src="care.jpg " alt="Woman holding a dog " width="972 " height="500 ">
-        </div>
-
-        <footer>
-            <div class="form-one">
-                <h5>Contact us</h5>
-                <p>Send us a message</p>
-                <input type="text " placeholder="Full name ">
-                <input type="text " placeholder="Email ">
-                <input type="text " placeholder="Your message ">
-                <button type="button ">Submit</button>
-            </div>
-
-            <div class="site-map">
-                <h5>Site Map</h5>
-                <ul>
-                    <li><a href=" index.html ">Home</a></li>
-                    <li><a href="Signup.html ">Sign up</a></li>
-                    <li><a href="Signin.html ">Sign in</a></li>
-                    <li><a href="Account.html ">Account</a></li>
-                    <li><a href="Basket.html ">Basket</a></li>
-                    <li><a href="About.html ">About</a></li>
-                </ul>
-            </div>
-
-            <div class="socials">
-                <a href="twitter.com ">Twitter</a>
-                <a href="instagram.com ">Instagram</a>
-                <a href="facebook.com ">Facebook</a>
-            </div>
-        </footer>
-    </main>
-
-</body>
-
+       
+   </body>
 </html>

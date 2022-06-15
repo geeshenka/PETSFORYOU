@@ -1,104 +1,227 @@
-body {}
-
-header {
-    background-color: #ffffff;
-    height: 100px;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
+header{
+    background-color: #fff;
+    height: 300px;
 
-.logo {
-    float: left;
-    padding-top: 0.4rem;
 }
-
-.heading {
+.container{
+    width:1920px ;
+    height:1348px ;
+}
+.categories,.main,.footer{
+    width: 1920px;
+    height: 500px;
+}
+.heading{
     color: #F2B880;
-    font-size: 50;
+    font-size: 50px;
     font-weight: bold;
-    padding-left: 5px;
-    padding-top: 15px;
+    padding-left: 64px;
+    padding-top: 100px;
+    text-decoration: none;
 }
-
-.nav {
+.nav{
     float: right;
+    display: inline-block;
+    padding-top: 46px;
+    width: 39.3%;
+    
 }
-
 .nav ul {
     color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 90%;
-    padding-right: 15rem;
-}
-
-.wrapper {
-    padding-top: 1.5rem;
-    text-align: center
+    padding-right: 75px;
+    list-style-type: none;
+    padding-top: 0px;
     
 }
-
-.heading {
-    text-decoration: none;
-}
-
 .home-nav {
     text-decoration: none;
-    font-size: 25;
+    font-size: 25px;
+    color: black;
+    
 }
 
 .signup-nav {
     text-decoration: none;
-    font-size: 25;
+    font-size: 25px;
+    color: black;
 }
 
 .sigin-nav {
     text-decoration: none;
-    font-size: 25;
+    font-size: 25px;
+    color: black;
 }
 
 .account-nav {
     text-decoration: none;
-    font-size: 25;
+    font-size: 25px;
+    color: black;
 }
 
 .basket-nav {
     text-decoration: none;
-    font-size: 25;
+    font-size: 25px;
+    color: black;
 }
-
-.search {
-    border-radius: 29px;
-    height: 20px;
-    width: 180px;
-    text-align: center;
+.nav a:hover{
+    background-color: #ebd7c2;
+}
+.nav a.home-nav{
+    text-decoration: underline;
+    text-decoration-color: #F2B880;
     
-    /*i dont know how to increase the font size of the placeholder*/
 }
-
-.body-one {
-    background-color: bisque;
+.container{
     width: 1920px;
-    height: 398px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.body-two {
-    background-color: #C98686;
+.wrapper{
+    text-align: center;
+    padding-top: 137px;
 }
-
-footer {
-    background-color: #966B9D;
+.search{
+    height: 58px;
+    width: 411px;
+    border-radius: 29px;
+    stroke: black;
+    text-align: center;
+    font-size: 25px;
+}
+.categories{
+    background-color: #FFF4EC;
+    height: 500px;
+}
+.column{
+    width: 33.33%;
+    float: left;
+    padding: 3px
+    
 }
 .cat{
-    float: left;
+    
     border-radius: 48px;
     
 }
 .fish{
-    float: right;
+    
     border-radius: 48px;
     
 }
 .dog{
     border-radius: 48px;
-    
+}
+.second{
+    padding-left: 64px;
+    font-size: 40px;
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
 
+.column img{
+    height: 280px;
+}
+.images{
+    padding-left: 340px;
+}
+.more{
+    float: right;
+    background-color: #F2B880;
+    font-size: 30px;
+    width: 153px;
+    height: 57px;
+    border-radius: 28.5px;
+    text-align: center;
+      
+}
+.third{
+    padding-left: 64px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main{
+    background-color: #C98686;
+    clear: both;
+    height: 500px;
+    
+}
+.writeup{
+    float: left;
+    font-size: 30px;
+    padding-left: 64px;
+}
+.hold{
+    width: 40%;
+    float: right;
+    padding-right: 3px;
+    
+}
+.read{
+    background-color: #F2B880;
+    font-size: 30px;
+    width: 168px;
+    height: 63px;
+    border-radius: 28.5px;
+
+}
+.footer{
+    clear: both;
+    background-color: #966B9D;
+    height: 300px;
+    padding-left: 64px;
+}
+.clm{
+    width: 100%;
+    float: left;
+    
+    padding: 3px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+width: 33.33%;
+padding: auto;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.twi{
+    text-decoration: none;
+    color: black;
+}
+.ig{
+    text-decoration: none;
+    color: #000;
+}
+.fb{
+    text-decoration: none;
+    color: #000;
+}
+
+.social-links a:hover{
+    background-color: #d39cdb;
+}
+.footer-col ul li a:hover{
+    background-color: #d39cdb;
 }
