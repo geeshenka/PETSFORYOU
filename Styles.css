@@ -2,91 +2,54 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-header{
-    background-color: #fff;
-    height: 300px;
-
-}
-.container{
-    width:1920px ;
-    height:1348px ;
-}
-.categories,.main,.footer{
-    width: 1920px;
-    height: 500px;
-}
-.heading{
-    color: #F2B880;
-    font-size: 50px;
-    font-weight: bold;
-    padding-left: 64px;
-    padding-top: 100px;
     text-decoration: none;
-}
-.nav{
-    float: right;
-    display: inline-block;
-    padding-top: 46px;
-    width: 39.3%;
-    
-}
-.nav ul {
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    padding-right: 75px;
     list-style-type: none;
-    padding-top: 0px;
-    
 }
-.home-nav {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    
-}
-
-.signup-nav {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-.sigin-nav {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-.account-nav {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-.basket-nav {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-.nav a:hover{
-    background-color: #ebd7c2;
-}
-.nav a.home-nav{
-    text-decoration: underline;
-    text-decoration-color: #F2B880;
-    
-}
+    nav{
+        background-color: #fff
+        height: 218px;
+        width: 100%;
+        
+      }
+      label.logo{
+        color: #F2B880;
+        font-size: 50px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+        padding-left: 64px;
+      }
+      nav ul{
+        float: right;
+        margin-right: 20px;
+      }
+      nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 20px;
+      }
+      nav ul li a{
+        color: #000;
+        font-size: 24px;
+      }
+      a.active,a:hover{
+        text-decoration: underline
+      }
+      a.active{
+        text-decoration-color: #F2B880;
+      }
+      a:hover{
+        background: #ebd7c2;
+      }
 .container{
-    width: 1920px;
+    width: 1262px;
     margin-left: auto;
     margin-right: auto;
 }
 .wrapper{
     text-align: center;
-    padding-top: 137px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .search{
     height: 58px;
@@ -98,7 +61,7 @@ header{
 }
 .categories{
     background-color: #FFF4EC;
-    height: 500px;
+    height: 450px;
 }
 .column{
     width: 33.33%;
@@ -124,25 +87,33 @@ header{
     font-size: 40px;
     font-weight: bold;
 }
-*{
-    box-sizing: border-box;
-}
+
 
 .column img{
     height: 280px;
 }
 .images{
-    padding-left: 340px;
+    padding-top: 20px;
+    padding-left: 125px;
+    padding-right: 200px
+    margin: 0 20px;
 }
 .more{
-    float: right;
+    
     background-color: #F2B880;
     font-size: 30px;
     width: 153px;
     height: 57px;
     border-radius: 28.5px;
     text-align: center;
-      
+    
+}
+.moree{
+    float: right;
+    padding-right: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
 }
 .third{
     padding-left: 64px;
@@ -153,32 +124,52 @@ header{
 .main{
     background-color: #C98686;
     clear: both;
-    height: 500px;
+    height: 310px;
+    
     
 }
 .writeup{
-    float: left;
-    font-size: 30px;
+    
+    font-size: 20px;
     padding-left: 64px;
+    display: grid;
 }
 .hold{
-    width: 40%;
-    float: right;
-    padding-right: 3px;
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px
     
+    
+    
+}
+.holdd{
+    width: 80%;
+    padding-right: 0px;
+    float: right;
+    padding-right: 50px;
+    
+
 }
 .read{
     background-color: #F2B880;
-    font-size: 30px;
-    width: 168px;
-    height: 63px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
     border-radius: 28.5px;
 
+}
+.readd{
+    padding-top: 5px;
+    padding-left: 550px;
+    float: left;
+    display: inline-block;
 }
 .footer{
     clear: both;
     background-color: #966B9D;
-    height: 300px;
+    height: 200px;
     padding-left: 64px;
 }
 .clm{
